@@ -8,6 +8,23 @@
 
 /* shared styles */
 
+.secoundary-bg {
+    background: rgb(255, 248, 243);
+}
+
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -25,16 +42,26 @@
     padding: 18px 35px;
     border: none;
 }
+
 /* header styles */
-.header{
+.header {
     height: 800px;
-    background-image: url("../images/developer.png") , url("../images/header_bg.png");
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right ;
+    background-position: top left, bottom right;
     max-width: 1600px;
     height: 700px;
-    
+    background-color: rgb(255, 248, 243);
+    ;
+
 }
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* nav styles  */
 nav {
     display: flex;
@@ -66,31 +93,59 @@ nav ul {
 
 /* banner styles  */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
     max-height: 360px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 
 }
-.banner-title{
+
+.banner-title {
     font-size: 55px;
     font-weight: bold;
 }
-.banner-description{
+
+.banner-description {
     color: rgb(117, 117, 117);
-font-size: 14px;
-font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
 }
 
-.banner-profil{
-     max-width: 580px;
-     max-height: 550px;
+.banner-profil {
+    max-width: 580px;
+    max-height: 550px;
+}
+
+/* about section start here */
+.about-container {
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 100px;
+    text-align: center;
+    
+
+}
+.about-content{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-title{
+font-weight:400;
+}
+.about-description{
+    font-weight: bold;
 }
