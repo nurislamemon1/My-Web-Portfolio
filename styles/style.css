@@ -93,6 +93,11 @@ nav ul {
 
 /* banner styles  */
 
+.banner .btn-primary{
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
