@@ -126,7 +126,7 @@ nav ul {
     font-weight: 400;
 }
 
-.banner-profil {
+.banner-profile {
     max-width: 580px;
     max-height: 550px;
 }
@@ -306,7 +306,10 @@ nav ul {
 
     .skils-content,
     .resume-container,
-    .footer-section {
+    .footer-section,
+    .banner,
+    nav,
+    nav>ul {
         flex-direction: column;
     }
 
@@ -323,13 +326,46 @@ nav ul {
     .footer-cloumn input[type="text"],
     .footer-cloumn input[type="email"],
     .footer-cloumn textarea {
-        width: calc(90% - 20px);  
+        width: calc(90% - 20px);
     }
-    .about-container{
+
+    .about-container {
         padding: 10px;
     }
-    .about-items{
+
+    .about-items {
         flex-direction: column;
+    }
+
+    .banner {
+        margin: 20px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner-profile {
+        width: 100%;
+        height: 50%;
+        margin-top: 150px;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .banner-content {
+        height: auto;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    nav {
+        margin: 10px;
+    }
+    .btn-primary{
+        padding: 20px;
     }
 
 }
